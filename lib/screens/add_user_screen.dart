@@ -31,7 +31,7 @@ class _AddUserScreenState extends State<AddUserScreen> {
       appBar: AppBar(
         title: Text(
           'Add New User',
-          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 20.sp),
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.sp),
         ),
         backgroundColor: Colors.deepPurple,
         elevation: 0,
