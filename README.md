@@ -1,16 +1,50 @@
-# user_management_app
+# User management app🧑‍💼📱
 
-A new Flutter project.
+A responsive Flutter application that fetches a list of users from an API, allows viewing details, and enables adding new users locally.
 
-## Getting Started
+This project was built as part of a Flutter internship assignment to demonstrate core concepts such as **state management**, **API integration**, and **responsive UI design**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📱 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Fetch users from API  
+✅ Display users in a responsive grid/list  
+✅ View detailed info about a selected user  
+✅ Add a new user using a local form  
+✅ Search bar to filter users  
+✅ Smooth navigation animations  
+✅ Error handling for API and connectivity issues  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🔧 Tech Stack
+
+- **Flutter**
+- **Bloc / Cubit** for state management
+- **Dio** for API requests
+- **Go Router** for navigation
+- **Responsive UI** with `LayoutBuilder`
+
+---
+
+## 🌐 API Used
+
+- Endpoint: `https://jsonplaceholder.typicode.com/users`
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK (version >= 3.10.0 recommended)
+- Dart SDK
+
+### Installation
+
+```bash
+git clone https://github.com/Evil-Knight1/Assignment-.git
+cd Assignment-
+flutter pub get
+flutter run
