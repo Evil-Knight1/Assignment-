@@ -155,18 +155,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ),
                                 textAlign: TextAlign.center,
                               ),
-                              SizedBox(height: 8.h),
-                              Text(
-                                user.email,
-                                style: TextStyle(fontSize: 14.sp, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
-                                overflow: TextOverflow.ellipsis,
-                              ),
                               SizedBox(height: 4.h),
-                              Text(
-                                user.phone,
-                                style: TextStyle(fontSize: 14.sp, color: Theme.of(context).colorScheme.onSurface.withOpacity(0.7)),
-                                overflow: TextOverflow.ellipsis,
-                              ),
+                              
+                            
                             ],
                           ),
                         ),
